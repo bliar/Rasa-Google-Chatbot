@@ -1,0 +1,51 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_thanks
+- utter_goodbye
+- utter_no_results
+- utter_pass_by_reference
+- utter_arraylist
+- utter_name
+- utter_question
+config:
+  store_entities_as_slots: true
+entities:
+- name
+intents:
+- greet:
+    use_entities: true
+- thanks:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- pass_by_reference:
+    use_entities: true
+- arraylist:
+    use_entities: true
+- name:
+    use_entities: true
+- question:
+    use_entities: true
+slots:
+  name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_arraylist:
+  - text: new ArrayList<>(Arrays.asList(array))
+  utter_goodbye:
+  - text: Bye bye.
+  utter_greet:
+  - text: Nice to you meet you {name}. How can I help you?
+  utter_name:
+  - text: Hello! I am your tutor. What's your name?
+  utter_no_results:
+  - text: Sorry, I couldn't find anything.
+  utter_pass_by_reference:
+  - text: Java is always pass-by-value.
+  utter_question:
+  - text: What is your problem?
+  utter_thanks:
+  - text: You are very welcome.

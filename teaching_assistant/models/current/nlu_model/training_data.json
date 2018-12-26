@@ -1,0 +1,257 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Awesome, bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye."
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "pass_by_reference",
+        "text": "Is Java pass by reference or pass by value?"
+      },
+      {
+        "intent": "pass_by_reference",
+        "text": "Java is pass by reference or pass by value?"
+      },
+      {
+        "intent": "pass_by_reference",
+        "text": "How java pass variables, by reference or by value?"
+      },
+      {
+        "intent": "arraylist",
+        "text": "How to create ArrayList from array?"
+      },
+      {
+        "intent": "arraylist",
+        "text": "How can I create ArrayList from array?"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Juste",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Juste"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Josh",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Josh"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Lucy",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Lucy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "David",
+            "entity": "name"
+          }
+        ],
+        "text": "It's David"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "John",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is John"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Sam",
+            "entity": "name"
+          }
+        ],
+        "text": "You can call me Sam"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Linda",
+            "entity": "name"
+          }
+        ],
+        "text": "Please call me Linda"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Richard"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Tracy",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Tracy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Sally",
+            "entity": "name"
+          }
+        ],
+        "text": "Call me Sally"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Philipp",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Philipp"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Charlie"
+      },
+      {
+        "intent": "question",
+        "text": "I want to ask a question"
+      },
+      {
+        "intent": "question",
+        "text": "I have a question"
+      },
+      {
+        "intent": "question",
+        "text": "May I ask a question?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,44 @@
+slots:
+  name:
+    type: text
+
+intents:
+ - greet
+ - thanks
+ - goodbye
+ - pass_by_reference
+ - arraylist
+ - name
+ - question
+
+entities:
+ - name
+
+actions:
+  - utter_greet
+  - utter_thanks
+  - utter_goodbye
+  - utter_no_results
+  - utter_pass_by_reference
+  - utter_arraylist
+  - utter_name
+  - utter_question
+
+templates:
+  utter_greet:
+  - text: "Nice to you meet you {name}. How can I help you?"
+  utter_thanks:
+  - text: "You are very welcome."
+  utter_goodbye:
+  - text: "Bye bye."
+  utter_no_results:
+  - text: "Sorry, I couldn't find anything."
+  utter_pass_by_reference:
+  - text: "Java is always pass-by-value."
+  utter_arraylist:
+  - text: "new ArrayList<>(Arrays.asList(array))"
+  utter_name:
+  - text: "Hello! I am your tutor. What's your name?"
+  utter_question:
+  - text: "What is your problem?"
+
